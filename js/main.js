@@ -47,7 +47,7 @@ const guests = [
     },
     {
       guest: 'Juliana',
-      imgUrl: 'images/speakers/juliana.jpg',
+      imgUrl: 'images/speakers/Juliana.jpg',
       companyDes: 'XXXXXXXXXXX',
       description: 'LOREN LOREN LOREN LOREN LOREN',
     },

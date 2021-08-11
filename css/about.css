@@ -152,7 +152,7 @@ body {
   text-align: left;
   font-style: normal;
   font-weight: 300;
-  width: 600px;
+  width: 800px;
   top: 430px;
   left: 400px;
   color: #000;
@@ -166,6 +166,17 @@ body {
   left: 400px;
   color: rgb(87, 87, 87);
   font-size: 35px;
+}
+
+.email-call {
+  display: flex;
+  position: relative;
+  top: 630px;
+  right: 1300px;
+  width: 200px;
+  font-weight: 300;
+  font-size: 24px;
+  color: #5e0c03;
 }
 
 .location {
@@ -185,7 +196,7 @@ body {
   display: block;
   position: relative;
   width: 100%;
-  background-image: url(/images/pattern_bkg.png);
+  /* background-image: url(/images/pattern_bkg.png); */
   background-color: #272a32;
   /* height: 537px; */
 }
@@ -199,7 +210,7 @@ body {
 .main-title {
   display: flex;
   justify-content: center;
-  color: #fff;
+  /* color: #272a31; */
   padding: 10px;
   margin: 30px 0 0 0 ;
 }
@@ -381,12 +392,18 @@ ul {
   height: 228px;
 }
 
+/* .footer {
+    display: absolute;
+    top: 1000px;
+}
+
 .footer-organizer {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   float: center;
   align-items: center;
+  top: 1500px;
 }
 
 .footer-title {
@@ -396,7 +413,7 @@ ul {
 
 .footer-paragraph {
   font-weight: 300;
-}
+} */
 
 @media only screen 
   and (min-device-width: 200px) 
@@ -545,6 +562,7 @@ ul {
 
   .hero-inner {
     width: 100%;
+    left: 0;
   }
 
   .call-title {
@@ -721,6 +739,7 @@ ul {
     align-items: center;
     width: auto;
     height: auto;
+    background-color: #272a31;
   }
   
   .footer-organizer img {
