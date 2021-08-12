@@ -7,12 +7,10 @@ body {
   font-family: 'Oswald', sans-serif;
   font-style: normal;
   font-weight: 100;
-  max-width: auto;
   height: 100px;
   margin: 0;
   padding: 0;
-  color:#333;
-  display: absolute;
+  color: #333;
   overflow-x: hidden;
 }
 
@@ -70,12 +68,13 @@ body {
   box-sizing: border-box;
   align-content: center;
   padding: 10px;
-  box-shadow: 0 10px 18px #888888;
+  box-shadow: 0 10px 18px #888;
   top: 36px;
   height: 80px;
 }
 
-.logo, .logo-img {
+.logo, 
+.logo-img {
   vertical-align: middle;
   display: flex;
   justify-content: space-between;
@@ -123,7 +122,7 @@ body {
   background-position-x: center;
   background-position-y: center;
   background-repeat: no-repeat;
-  margin: 0px auto;
+  margin: 0 auto;
   text-align: center;
   top: 50px;
 }
@@ -132,7 +131,6 @@ body {
   height: auto;
   overflow: auto;
   text-align: center;
-  /* padding: 60px 0px; */
   font-size: 60px;
   font-weight: 700px;
   color: #ec5242;
