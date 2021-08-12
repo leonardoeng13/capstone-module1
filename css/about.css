@@ -73,7 +73,7 @@ body {
   height: 80px;
 }
 
-.logo, 
+.logo,
 .logo-img {
   vertical-align: middle;
   display: flex;
@@ -132,7 +132,7 @@ body {
   overflow: auto;
   text-align: center;
   font-size: 60px;
-  font-weight: 700px;
+  font-weight: 700;
   color: #ec5242;
   background: -webkit-linear-gradient(#ec5242, #b11908, #690e04, #5e0c03, #ec5242);
   -webkit-background-clip: text;
@@ -143,10 +143,9 @@ body {
   display: flex;
   align-items: center;
   font-family: 'Lato', sans-serif;
-  margin: 0px auto 33px;
+  margin: 0 auto 33px;
   padding: 33px 33px 33px 33px;
   line-height: 25px;
-  border: 1px solid rgb(223, 223, 223);
   width: 860px;
   background-color: rgb(255, 255, 255);
   font-size: 0.875em;
@@ -157,7 +156,7 @@ body {
 .date-title {
   align-items: center;
   font-family: 'Lato', sans-serif;
-  margin: 0px auto 33px;
+  margin: 0 auto 33px;
   width: 860px;
   color: #000;
 }
@@ -166,7 +165,7 @@ body {
   align-items: center;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  margin: 0px auto 33px;
+  margin: 0 auto 33px;
   width: 860px;
   color: #000;
 }
@@ -191,26 +190,29 @@ a:link {
 .main1 {
   display: block;
   position: relative;
-  width: 100%; 
-  text-align: -webkit-center;
+  width: 100%;
+  text-align: center;
   font-family: 'Lato', sans-serif;
 }
 
 .guide-bar {
   width: 53px;
   border-bottom: 1px solid rgb(239, 81, 60);
-  margin: 0px auto 54px;
+  margin: 0 auto 54px;
 }
 
 .main-title {
   display: flex;
   justify-content: center;
   padding: 10px;
-  margin: 30px 30px 30px 30px ;
+  margin: 30px 30px 30px 30px;
 }
 
 .main-paragraphy {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 6em;
   align-items: center;
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -219,11 +221,14 @@ a:link {
   width: 1200px;
 }
 
-
 .about-logo {
-display: flex;
-position: relative;
-border: 1px solid rgb(223, 223, 223);
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid rgb(223, 223, 223);
 }
 
 .partner {
@@ -234,8 +239,8 @@ border: 1px solid rgb(223, 223, 223);
 .partner-organizer {
   display: block;
   position: relative;
-  width: 100%; 
-  text-align: -webkit-center;
+  width: 100%;
+  text-align: center;
 }
 
 .past-paragraphy {
@@ -261,7 +266,7 @@ border: 1px solid rgb(223, 223, 223);
   grid-column-gap: 5px;
   grid-template-columns: auto auto auto auto auto;
   padding: 10px;
-  justify-content: center;  
+  justify-content: center;
   height: 334px;
   align-items: center;
   }
@@ -270,7 +275,7 @@ border: 1px solid rgb(223, 223, 223);
   margin: 0 0 0 3px;
   padding: 0;
   border: 0;
-  float: center;
+  /* float: center; */
   justify-content: space-around;
   align-items: center;
   justify-content: center;
@@ -321,18 +326,18 @@ ul {
 }
 
 .speaker-conter {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .guest-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 40%;
-    margin-top: 20px;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 40%;
+  margin-top: 20px;
+}
   
 .guest-container img {
   flex-basis: 30%;
@@ -389,7 +394,6 @@ ul {
   
 /* JAVASCRIPT FINISH */
 
-
 .partiner-tile {
   display: flex;
   justify-content: center;
@@ -430,7 +434,7 @@ ul {
   display: block;
   position: relative;
   width: 100%;
-  text-align: -webkit-center;
+  text-align: center;
   background-color: #272a31;
   color: #fff;
 }
@@ -449,8 +453,8 @@ ul {
   html, body {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
   }
 
@@ -593,7 +597,7 @@ ul {
     display: flex;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700px;
+    font-weight: 700;
     top: 0;
     left: 55px;
   }
@@ -605,7 +609,7 @@ ul {
     font-style: normal;
     width: auto;
     text-align: left;
-    font-weight: 700px;
+    font-weight: 700;
     top: 30px;
     left: 55px;
     color: #ec5242;
@@ -661,8 +665,8 @@ ul {
   .grid-container{
     width: 100%;
     position: relative;
-    margin: 0px 0px 0.5em;
-    padding: 16px 0px;
+    margin: 0 0 0.5em;
+    padding: 16px 0;
     vertical-align: middle;
     display: table;
     height: auto;
@@ -676,7 +680,6 @@ ul {
     margin: 0 0 0 3px;
     padding: 0;
     border: 0;
-    float: center;
     justify-content: space-around;
     align-items: center;
     justify-content: center;
@@ -721,7 +724,7 @@ ul {
   .guide-bar {
     width: 53px;
     border-bottom: 1px solid rgb(239, 81, 60);
-    margin: 0px auto 0;
+    margin: 0 auto 0;
   }
   
   .grid-container-partner {

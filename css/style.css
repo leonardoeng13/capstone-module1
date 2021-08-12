@@ -121,7 +121,7 @@ body {
   position: absolute;
   font-size: 52px;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   top: 70px;
   left: 400px;
   color: #ec5242;
@@ -134,7 +134,7 @@ body {
   font-style: normal;
   width: auto;
   text-align: left;
-  font-weight: 700px;
+  font-weight: 700;
   top: 120px;
   left: 400px;
   color: #ec5242;
@@ -185,14 +185,14 @@ body {
   display: block;
   position: relative;
   width: 100%;
-  background-image: url(images/pattern_bkg.png);
+  background-image: url(/images/pattern_bkg.png);
   background-color: #272a32;
 }
 
 .guide-bar {
   width: 53px;
   border-bottom: 1px solid rgb(239, 81, 60);
-  margin: 0px auto 54px;
+  margin: 0 auto 54px;
 }
 
 .main-title {
@@ -405,8 +405,8 @@ ul {
   html, body {
     width: 100%;
     height: 100%;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
   }
 
@@ -548,7 +548,7 @@ ul {
     display: flex;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700px;
+    font-weight: 700;
     top: 0;
     left: 55px;
   }
@@ -560,7 +560,7 @@ ul {
     font-style: normal;
     width: auto;
     text-align: left;
-    font-weight: 700px;
+    font-weight: 700;
     top: 30px;
     left: 55px;
     color: #ec5242;
@@ -616,8 +616,8 @@ ul {
   .grid-container{
     width: 100%;
     position: relative;
-    margin: 0px 0px 0.5em;
-    padding: 16px 0px;
+    margin: 0 0 0.5em;
+    padding: 16px 0;
     vertical-align: middle;
     display: table;
     height: auto;
@@ -676,7 +676,7 @@ ul {
   .guide-bar {
     width: 53px;
     border-bottom: 1px solid rgb(239, 81, 60);
-    margin: 0px auto 0;
+    margin: 0 auto 0;
   }
   
   .grid-container-partner {

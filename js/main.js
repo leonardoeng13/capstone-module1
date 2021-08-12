@@ -1,7 +1,6 @@
 const menuIcon = document.querySelector('.hamburguer-menu');
 const navbarMobile = document.querySelector('.navbar-mobile');
 
-const closeBtn = document.querySelector('.closeBtn');
 const menuItem1 = document.querySelector('#menu-item1');
 const menuItem2 = document.querySelector('#menu-item2');
 const menuItem3 = document.querySelector('#menu-item3');
