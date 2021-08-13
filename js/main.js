@@ -79,7 +79,7 @@ function createProjectsSeciton() {
         + `<img src="${guests[i].imgUrl}" alt="Guest logo"/>`
         + '<div class="guest">'
         + `<h2>${guests[i].guest}</h2>`
-        + `<h3>${guests[i].companyDes}</h2>`
+        + `<h3>${guests[i].companyDes}</h3>`
         + `<p>${guests[i].description}</p>`
         + '</div>'
         + '</li>';

@@ -22,6 +22,18 @@ body {
   display: none;
 }
 
+.main-mobile-paragraph {
+  display: none;
+}
+
+.call-title {
+  display: none;
+}
+
+.partner-mobile {
+  display: none;
+}
+
 .top-header {
   display: flex;
   width: 100%;
@@ -68,7 +80,7 @@ body {
   box-sizing: border-box;
   align-content: center;
   padding: 10px;
-  box-shadow: 0 10px 18px #888;
+  box-shadow: 0 5px 18px #888;
   top: 36px;
   height: 80px;
 }
@@ -110,6 +122,14 @@ body {
   font-size: 16px;
   line-height: 24px;
   text-align: right;
+}
+
+.btn-campain {
+  font-weight: 300;
+  font-size: 14px;
+  border: 2px solid #ec5242;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
 }
 
 .hero {
@@ -210,13 +230,17 @@ a:link {
 
 .main-paragraphy {
   display: flex;
-  margin-left: auto;
   align-items: center;
-  text-align: center;
   font-family: 'Lato', sans-serif;
+  margin: 0 auto 33px;
+  padding: 33px 33px 33px 33px;
   line-height: 25px;
-  padding: 35px 35px 35px 35px;
-  width: 1200px;
+  width: 860px;
+  background-color: rgb(255, 255, 255);
+  font-size: 0.875em;
+  color: #000;
+
+  /* border: 1px solid grey; */
 }
 
 .about-logo {
@@ -408,10 +432,10 @@ a:link {
 }
 
 .footer-organizer {
-  display: block;
-  position: relative;
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
   background-color: #272a31;
   color: #fff;
 }
@@ -439,17 +463,12 @@ a:link {
     display: none;
   }
 
+  .main-paragraphy {
+    display: none;
+  }
+
   .navigation {
-    display: flex;
-    width: 100%;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    align-content: center;
-    padding: 0;
-    box-shadow: 0 0 0 #888;
-    top: 0;
+    display: none;
   }
 
   .logo img {
@@ -461,8 +480,7 @@ a:link {
   /* mobile hamburguer menu */
   .menumobile {
     display: flex;
-    height: 100vh;
-    background-color: #fff;
+    background-color: #888;
   }
 
   .navbar-mobile {
@@ -545,6 +563,10 @@ a:link {
     display: none;
   }
 
+  .logo {
+    display: none;
+  }
+
   .menu-nav {
     display: none;
   }
@@ -555,6 +577,9 @@ a:link {
 
   .mobile-img {
     display: flex;
+    position: relative;
+    width: 100%;
+    top: -60px;
   }
 
   .hero {
@@ -562,29 +587,34 @@ a:link {
     position: relative;
     text-align: center;
     width: 100%;
-    top: 2px;
+    height: 400px;
+
+    /* top: 2px; */
   }
 
   .hero-inner {
     width: 100%;
-    left: 0;
   }
 
   .call-title {
     display: flex;
+    position: absolute;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 300;
+    width: 90%;
+    margin: 0 auto 0;
     top: 0;
     left: 55px;
+    color: #ec5242;
   }
 
   .title {
     display: flex;
     position: absolute;
     font-size: 40px;
+    font-size: 7vw;
     font-style: normal;
-    width: auto;
     text-align: left;
     font-weight: 700;
     top: 30px;
@@ -598,15 +628,12 @@ a:link {
   .hero-paragraphy {
     display: flex;
     position: absolute;
-    margin: 10px;
-    padding: 10px;
+    margin: 0 auto 0;
+    padding: 0;
     font-size: 14px;
-    text-align: left;
-    font-style: normal;
-    font-weight: 300;
     width: 90%;
-    top: 300px;
-    left: 0;
+    top: 200px;
+    left: 15px;
     color: #000;
     background-color: #fff;
   }
@@ -614,29 +641,79 @@ a:link {
   .date-title {
     display: flex;
     position: absolute;
-    top: 370px;
+    margin: 0 auto 0;
+    top: 380px;
     left: 15px;
+    width: 90%;
     color: rgb(87, 87, 87);
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .location {
     display: flex;
     position: absolute;
-    top: 600px;
+    margin: 0 auto 0;
+    top: 280px;
     left: 55px;
+    width: 90%;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 20px;
+  }
+
+  .email-call {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    margin: 0 auto 0;
+    top: 430px;
+    left: 150px;
+    color: #000;
   }
 
   .main1 {
     display: block;
     position: relative;
     width: 100%;
-    background-image: url(/images/pattern_bkg.png);
-    background-color: #272a32;
     height: auto;
-    top: 0;
+    top: 130px;
+  }
+
+  ..main-paragraphy {
+    display: none;
+  }
+
+  .main-mobile-paragraph {
+    display: flex;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-size: 4vw;
+  }
+
+  .about-logo {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid rgb(223, 223, 223);
+  }
+
+  .past-title {
+    display: flex;
+    position: absolute;
+    top: -380px;
+    left: 55px;
+  }
+
+  .past-paragraphy {
+    display: flex;
+    position: absolute;
+    top: -330px;
+
+    /* left: 10px; */
   }
 
   .grid-container {
@@ -678,7 +755,8 @@ a:link {
 
   .partner {
     width: 100%;
-    max-height: 600px;
+    display: flex;
+    position: absolute;
   }
 
   .partner-organizer {
@@ -705,11 +783,12 @@ a:link {
   }
 
   .grid-container-partner {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     grid-column-gap: 5px;
     height: auto;
     margin: auto;
-    text-align: right;
+    text-align: center;
   }
 
   .grid-item-partner {
@@ -741,7 +820,6 @@ a:link {
     align-items: center;
     width: auto;
     height: auto;
-    background-color: #272a31;
   }
 
   .footer-organizer img {
