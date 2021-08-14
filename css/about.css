@@ -37,7 +37,7 @@ body {
 .top-header {
   display: flex;
   width: 100%;
-  position: absolute;
+  /*/*position: absolute;*/
   max-width: 100%;
   height: 36px;
   justify-content: flex-end;
@@ -48,7 +48,7 @@ body {
 
 .header-content {
   display: flex;
-  position: absolute;
+  /*/*position: absolute;*/
   width: 45%;
   align-content: center;
 }
@@ -74,7 +74,7 @@ body {
 .navigation {
   display: flex;
   width: 100%;
-  position: relative;
+  /*position: relative;*/
   justify-content: space-evenly;
   align-items: center;
   box-sizing: border-box;
@@ -101,7 +101,7 @@ body {
   color: rgb(0, 0, 0);
   text-align: right;
   vertical-align: middle;
-  position: relative;
+  /*position: relative;*/
   align-content: center;
   align-items: center;
 }
@@ -134,7 +134,7 @@ body {
 
 .hero {
   display: flex;
-  position: relative;
+  /*position: relative;*/
   flex-direction: column;
   width: 100%;
   background-image: url(/images/about_bg_01.png);
@@ -196,7 +196,7 @@ a:link {
 
 .location {
   display: flex;
-  position: absolute;
+  /*/*position: absolute;*/
   top: 600px;
   left: 400px;
   font-weight: 300;
@@ -209,7 +209,7 @@ a:link {
 
 .main1 {
   display: block;
-  position: relative;
+  /*position: relative;*/
   width: 100%;
   text-align: center;
   font-family: 'Lato', sans-serif;
@@ -260,7 +260,7 @@ a:link {
 
 .partner-organizer {
   display: block;
-  position: relative;
+  /*position: relative;*/
   width: 100%;
   text-align: center;
 }
@@ -551,7 +551,7 @@ a:link {
     text-decoration: none;
     color: #000;
     font-size: 16px;
-    position: relative;
+    /*position: relative;*/
     flex-direction: column;
     top: 100px;
     right: 55px;
@@ -577,14 +577,14 @@ a:link {
 
   .mobile-img {
     display: flex;
-    position: relative;
+    /*position: relative;*/
     width: 100%;
     top: -60px;
   }
 
   .hero {
     display: flex;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     width: 100%;
     height: 400px;
@@ -598,7 +598,7 @@ a:link {
 
   .call-title {
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     font-size: 24px;
     font-style: normal;
     font-weight: 300;
@@ -611,7 +611,7 @@ a:link {
 
   .title {
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     font-size: 40px;
     font-size: 7vw;
     font-style: normal;
@@ -627,7 +627,7 @@ a:link {
 
   .hero-paragraphy {
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     margin: 0 auto 0;
     padding: 0;
     font-size: 14px;
@@ -640,7 +640,7 @@ a:link {
 
   .date-title {
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     margin: 0 auto 0;
     top: 380px;
     left: 15px;
@@ -651,7 +651,7 @@ a:link {
 
   .location {
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     margin: 0 auto 0;
     top: 280px;
     left: 55px;
@@ -663,7 +663,7 @@ a:link {
   .email-call {
     align-items: center;
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     font-family: 'Lato', sans-serif;
     font-weight: bold;
     margin: 0 auto 0;
@@ -674,7 +674,7 @@ a:link {
 
   .main1 {
     display: block;
-    position: relative;
+    /*position: relative;*/
     width: 100%;
     height: auto;
     top: 130px;
@@ -703,14 +703,14 @@ a:link {
 
   .past-title {
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     top: -380px;
     left: 55px;
   }
 
   .past-paragraphy {
     display: flex;
-    position: absolute;
+    /*/*position: absolute;*/
     top: -330px;
 
     /* left: 10px; */
@@ -718,7 +718,7 @@ a:link {
 
   .grid-container {
     width: 100%;
-    position: relative;
+    /*position: relative;*/
     margin: 0 0 0.5em;
     padding: 16px 0;
     vertical-align: middle;
@@ -756,12 +756,12 @@ a:link {
   .partner {
     width: 100%;
     display: flex;
-    position: absolute;
+    /*position: absolute;*/
   }
 
   .partner-organizer {
     display: block;
-    position: relative;
+    /*position: relative;*/
     height: auto;
     justify-content: center;
     text-align: center;
@@ -814,7 +814,7 @@ a:link {
 
   .footer-organizer {
     display: flex;
-    position: relative;
+    /*position: relative;*/
     justify-content: flex-start;
     flex-direction: row;
     align-items: center;
