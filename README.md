@@ -4,6 +4,9 @@ This is the first capstone project in Microverse. The goal of the project is to 
 
 [Portolio Live Demo](https://leonardoeng13.github.io/capstone-module1/)
 
+### Presentation Video
+
+[Leo de Andrade](https://www.loom.com/share/6384dc4d3d994db681d88713a886a829)
 
 ## Built With
 - HTML, CSS, JS
