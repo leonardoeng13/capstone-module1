@@ -88,12 +88,14 @@ body {
   transition: all 0.8s;
 }
 .change .line-1 {
+  background-color: #ec5242;
   transform: rotateZ(-405deg) translate(-11px, 6px);
 }
 .change .line-2 {
   opacity: 0;
 }
 .change .line-3 {
+  background-color: #ec5242;
   transform: rotateZ(405deg) translate(-11px, -6px);
 }
 .hamb-nav-list {
@@ -117,8 +119,6 @@ body {
   font-size: 16px;
   position: relative;
   flex-direction: column;
-  top: 100px;
-  right: 55px;
 }
 
 /* end mobile hamburguer menu */
@@ -532,6 +532,11 @@ body {
     justify-content: flex-start;
     color: #272a31;
   }
+  .menu-nav a {
+    color: #ec5242;
+    list-style: none;
+    text-decoration: none;
+  }
   
   .menu-nav li {
     color: grey;
@@ -545,9 +550,10 @@ body {
   }
   
   .btn-campain {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
-    border: 2px solid #ec5242;
+    color: #ec5242;
+    border: 3px solid #ec5242;
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
   }
