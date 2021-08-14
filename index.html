@@ -17,7 +17,7 @@
     <title>CIO - CTO Global Summit</title>
 </head>
 <body>
-    <header class="top-header">
+    <header class="top-header d-nome">
         <div class="header-content">
             <ul class="header-list">
                 <li><img src="images/facebook.png" alt="Facebook"></li>
@@ -29,10 +29,10 @@
         </div>
     </header>
 
-    <section class="desk-nav">
+    <section class="desk-nav d-nome">
         <nav>
               <!-- mobile menu -->
-            <div class="menumobile">
+            <div class="menumobile d-none-desk">
                 <nav class="navbar-mobile">
                     <div class="hamburguer-menu">
                         <div class="line line-1"></div>
@@ -49,7 +49,7 @@
                 </nav>
             </div>
             <!-- end mobile menu -->
-            <nav class="navigation">
+            <nav class="navigation d-none">
                 <div class="logo">
                     <a href="index.html">
                     <img class="logo-img" src="images/Logo-Light-2.png" alt="Logo"></a>
@@ -69,19 +69,19 @@
         </section>
    
 <section class="hero">
-    <img class="desktop-img" src="images/main_big.png" alt="">
+    <img class="desktop-img d-none" src="images/main_big.png" alt="">
     
     <div class="hero-inner">
-        <img class="mobile-img" src="images/mobile_intro_bg.png" alt="">
+        <img class="mobile-img d-nome-desk" src="images/mobile_intro_bg.png" alt="">
         <div>
         <p class="call-title">"The World CIO 200 Summit presents:"</p>
-        <h1 class="title">C-LEVELS & MANAGERS <br/>GLOBAL SUMMIT 2021</h1>
-        <p class="hero-paragraphy">A joyful celebration believing in the value of opperness and sharing, creating a positive change with people from over 80 countries is talking place, in August, in Brazil</p>
+        <h1 class="title mb-1">C-LEVELS & MANAGERS <br/>GLOBAL SUMMIT 2021</h1>
+        <p class="hero-paragraphy mb-1">A joyful celebration believing in the value of opperness and sharing, creating a positive change with people from over 80 countries is talking place, in August, in Brazil</p>
         </div>
-        <div>
-            <h3 class="date-title">2021.08.30(MON) ~ 31(TUE)</h3>
-            <p class="location">@ Ouro Minas Palace Hotel</p>
-        </div>
+
+        <h3 class="date-title">2021.08.30(MON) ~ 31(TUE)</h3>
+        <p class="location mb-1">@ Ouro Minas Palace Hotel</p>
+
     </div>
 </section>
 
@@ -106,17 +106,22 @@
                 <h3 class="highligts">The World CIO 200 Nominations</h3>
                 <p class="highlights-text">Celebrating of Top 200 Masterminds of Digital world & their project for the year from all participating countries in CIO 200</p></div>
         </div>
-        <h2 class="h2-link"><a href="index.html">SEE THE WHOLE PROGRAM</a></h2>
+        <div class="d-flex justify-content-center">
+          <a class="h2-link d-none" href="index.html">SEE THE WHOLE PROGRAM</a>
+          <a class="join-btn d-nome-desk" href="index.html">Join World Cio</a>
+        </div>
     </div>
 </section>
 
-<section class="content-spacing" id="guests">
+
+<section class="content-spacing " id="guests">
     <h1 class="feature-title">Featured Speakers</h1>
         <div class="speaker-conter">
             <ul class="guestsSection column-container">
             </ul>
         </div>
 </section>
+
 
 <section class="partner">
     <div class="partner-organizer">
@@ -141,7 +146,7 @@
             <p class="footer-paragraph">Some Rights Reserved</p>
         </div>
     </div>
-</section>
+</section> 
 <script src="js/main.js"></script>
 </body>
 </html>
